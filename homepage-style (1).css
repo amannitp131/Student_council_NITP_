@@ -1,0 +1,277 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+
+section {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(132, 123, 123);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+
+}
+main aside {
+    min-width: 20%;
+}
+aside nav {
+    min-width: 40%;
+    height: 80vh;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+aside nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #555;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+aside nav a:last-child {
+    border-bottom: none;
+}
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+#para {
+    font-size: 1.2rem;
+}
+
+.right div {
+    text-align: center;
+
+
+}
+
+.right {
+    /* margin: auto; */
+    background-image: url("student\ counsil.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Start here */
+
+.header_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2.5rem;
+    line-height: 1.2rem;
+}
+
+.header_container h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.header_container p {
+    width: 60%;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+.main_container {
+    /* border: 2px solid black; */
+    width: 70%;
+    display: grid;
+    padding: 0.7rem;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 15%;
+}
+
+@media (max-width:1100px) {
+    .main_container {
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+}
+@media (max-width:880px) {
+    .main_container {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}
+@media (max-width:650px) {
+    .main_container {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+}
+
+.card_container {
+    /* border: 2px solid orange; */
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    overflow: hidden;
+    gap: 1.2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.card_container:hover .card_image {
+    transform: scale(1.2);
+    transition: all 2s ease-out 1s;
+
+}
+
+.image_container {
+    position: relative;
+    overflow: hidden;
+    height: 9rem;
+
+}
+
+.card_image {
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.card_title_container {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 0 1.2rem;
+}
+
+.card_title_anchor {
+    margin: auto;
+}
+
+.card_title_anchor:hover .card_title {
+    color: red;
+}
+
+.card_footer {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_author {
+    /* border: 1px solid pink; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.author_avatar {
+    height: 2.5rem;
+    width: 2.5rem;
+    overflow: hidden;
+    border: 1px solid rgb(55, 49, 49);
+    border-radius: 90%;
+    background-color: rgb(187, 174, 174);
+}
+
+.tag_container {
+    display: flex;
+    align-items: center;
+
+}
+
+.tag_container span {
+    border: 1px solid black;
+}

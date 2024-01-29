@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaint Registration - Homepage</title>
+    <link rel="stylesheet" href="homepage-style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="homepage.html">Home</a>
+            <a href="#about">About</a>
+            <a href="#">Services</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <aside>
+            <nav>
+                <a href="#">Complaints</a>
+                <a href="graph.html">Status</a>
+                <a href="#gamma">Prof.In-Charge</a>
+                <a href="#">Notification</a>
+            </nav>
+        </aside>
+        <div class="right">
+
+            <div>
+                <h2 id="about">About Us</h2>
+                <p id="para">Welcome to the Student Council Complaint about Mess website! We understand the importance
+                    of a clean
+                    and organized dining environment, and we are here to address your concerns. Our platform serves as a
+                    direct channel for students to voice their feedback, report issues, and contribute to the
+                    improvement of the mess facilities on campus.</p>
+            </div>
+            <section class="complaintForm">
+                <form action="mailto:kingshivamsaxena862006@gmail.com" method="post" id="complaintForm"
+                    enctype="text/plain">
+                    <label for="name">Area of Compliant:</label>
+                    <select name="name" id="name" style="display: inline;">
+                        <Option>Academics</Option>
+                        <option value="">Hostel Facilities</option>
+                        <option value="">Mess Food</option>
+                        <option value="">Hostel Room</option>
+                        <option value="">Transportation</option>
+                    </select>
+
+                    <label for="complaint" aria-placeholder="Write Your Complaint">Your Complaint:</label>
+                    <textarea id="complaint" name="complaint" rows="8" required></textarea>
+
+                    <button type="submit">Submit Complaint</button>
+                </form>
+            </section>
+        </div>
+    </main>
+    <div class="main_container" id="gamma">
+        <!-- card1 start here -->
+        <div class="card_container">
+            <a href="#" class="image_container">
+                <img src="https://source.unsplash.com/random/600×400?technology" alt="card1_image" class="card_image"
+                    loading="lazy">
+            </a>
+            <div class="card_title_container">
+                <a href="#" class="card_title_anchor" target="_blank">
+                    <h3 class="card_title">Maintainance</h3>
+                </a>
+                <p class="card_desc">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum ipsam rerum excepturi adipisci.
+                </p>
+            </div>
+            <div class="card_footer">
+                <div class="card_author">
+                    <div class="author_avatar">
+                        <img src="https://api.dicebear.com/7.x/notionists/svg?seed=John?size=64" alt="Avatar"
+                            loading="lazy">
+                    </div>
+                    <div class="author_info">
+                        <span>
+                            Anshu Jha
+                        </span>
+                        <span>
+                            08/11/2024
+                        </span>
+                    </div>
+                </div>
+
+                <div class="tag_container">
+                    <span>Technology</span>
+                </div>
+            </div>
+        </div>
+        <!-- card1 end here -->
+        <div class="card_container">
+            <a href="#" class="image_container">
+                <img src="https://source.unsplash.com/random/600×400?healthy" alt="card1_image" class="card_image"
+                    loading="lazy">
+            </a>
+            <div class="card_title_container">
+                <a href="#" class="card_title_anchor" target="_blank">
+                    <h3 class="card_title">Mess Food</h3>
+                </a>
+                <p class="card_desc">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum ipsam rerum excepturi adipisci.
+                </p>
+            </div>
+            <div class="card_footer">
+                <div class="card_author">
+                    <div class="author_avatar">
+                        <img src="https://api.dicebear.com/7.x/notionists/svg?seed=John?size=64" alt="Avatar"
+                            loading="lazy">
+                    </div>
+                    <div class="author_info">
+                        <span>
+                            S. Saxena
+                        </span>
+                        <span>
+                            29/01/2024
+                        </span>
+                    </div>
+                </div>
+
+                <div class="tag_container">
+                    <span>Health</span>
+                </div>
+            </div>
+        </div>
+        <div class="card_container">
+            <a href="#" class="image_container">
+                <img src="https://source.unsplash.com/random/600×400?student" alt="card1_image" class="card_image"
+                    loading="lazy">
+            </a>
+            <div class="card_title_container">
+                <a href="#" class="card_title_anchor" target="_blank">
+                    <h3 class="card_title">Academics</h3>
+                </a>
+                <p class="card_desc">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum ipsam rerum excepturi adipisci.
+                </p>
+            </div>
+            <div class="card_footer">
+                <div class="card_author">
+                    <div class="author_avatar">
+                        <img src="https://api.dicebear.com/7.x/notionists/svg?seed=John?size=64" alt="Avatar"
+                            loading="lazy">
+                    </div>
+                    <div class="author_info">
+                        <span>
+                            Aakash
+                        </span>
+                        <span>
+                            16/11/2020
+                        </span>
+                    </div>
+                </div>
+
+                <div class="tag_container">
+                    <span>Academic</span>
+                </div>
+            </div>
+        </div>
+        <div class="card_container">
+            <a href="#" class="image_container">
+                <img src="https://source.unsplash.com/random/600×400?transport" alt="card1_image" class="card_image"
+                    loading="lazy">
+            </a>
+            <div class="card_title_container">
+                <a href="#" class="card_title_anchor" target="_blank">
+                    <h3 class="card_title">Transport</h3>
+                </a>
+                <p class="card_desc">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum ipsam rerum excepturi adipisci.
+                </p>
+            </div>
+            <div class="card_footer">
+                <div class="card_author">
+                    <div class="author_avatar">
+                        <img src="https://api.dicebear.com/7.x/notionists/svg?seed=John?size=64" alt="Avatar"
+                            loading="lazy">
+                    </div>
+                    <div class="author_info">
+                        <span>
+                            Aman
+                        </span>
+                        <span>
+                            16/11/2020
+                        </span>
+                    </div>
+                </div>
+
+                <div class="tag_container">
+                    <span>Loco</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bottom-container" id="Contact">
+        <a style="padding: 20px;" class="footer-link"
+            href="https://www.linkedin.com/in/shivam-saxena-aa8754289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
+        <a style="padding: 20px;" class="footer-link"
+            href="https://x.com/Shivam562006?t=9i0jfcSJV7CURFDcSW5Y_A&s=09">Twitter</a>
+        <a style="padding: 20px;" class="footer-link"
+            href="https://www.instagram.com/shivamsaxena744846?igsh=YzVkODRmOTdmMw==">instagram</a>
+        <p class="copyright">© 2023 Student Council Web-Diver @nitp</p>
+    </footer>
+
+
+
+    <script src="homepage.js"></script>
+</body>
+
+</html>
